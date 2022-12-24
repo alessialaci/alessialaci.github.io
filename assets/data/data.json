@@ -6,19 +6,59 @@
         "JavaScript",
         "Sass",
         "Bootstrap",
-        "Angular",
-        "Typescript"
+        "Typescript",
+        "Angular"
     ],
     "progetti": [
         {
             "id": 1,
-            "nome": "Progetto 1 - Week 1",
-            "categoria": "HTML",
-            "srcImg": "../img/progetto-week1",
-            "altImg": "front-end",
-            "textCard": "Primo progetto settimanale usando le tecniche imparate durante la settimana: HTML e CSS.",
+            "nome": "Progetto - Week 1",
+            "categoria": [
+                "HTML",
+                "CSS"
+            ],
+            "srcImg": "assets/img/progetto-week1.jpg",
+            "altImg": "Progetto 1",
+            "descrizione": "Primo progetto settimanale Epicode usando le tecniche imparate durante la settimana: HTML e CSS.",
             "linkSito": "https://progetto-week1-lt5z.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week1"
+        },
+        {
+            "id": 2,
+            "nome": "Progetto - Week 2",
+            "categoria": [
+                "HTML",
+                "CSS"
+            ],
+            "srcImg": "assets/img/progetto-week2.jpg",
+            "altImg": "Progetto 2",
+            "descrizione": "Secondo progetto settimanale Epicode realizzato interamente in HTML e CSS. Si tratta di un piccolo sito web formato da una homepage, una pagina 'Contatti' e una 'Chi siamo'.",
+            "linkSito": "https://progetto-week2.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week2"
+        },
+        {
+            "id": 3,
+            "nome": "Progetto - Week 3 - Calcolatrice",
+            "categoria": "Javascript",
+            "srcImg": "assets/img/progetto-week3.jpg",
+            "altImg": "Progetto 3 - Calcolatrice",
+            "descrizione": "Terzo progetto settimanale Epicode. Grazie alle basi di Javascript apprese durante la settimana sono riuscita a realizzare una versione molto semplificata di una calcolatrice.",
+            "linkSito": "https://progetto-week3.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week3"
+        },
+        {
+            "id": 4,
+            "nome": "Build Week 1",
+            "categoria": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "srcImg": "assets/img/build-week1.jpg",
+            "altImg": "Build Week 1",
+            "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Soltanto le funzionalità del carosello sono state implementate con Javascript.",
+            "linkSito": "https://build-week1.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/Build-Week1"
         }
     ]
 }
