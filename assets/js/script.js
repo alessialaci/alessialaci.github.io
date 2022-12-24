@@ -21,7 +21,7 @@ function printData() {
         if(progetti.length > 0) {
             progetti.reverse().map(function(element) {
                 griglia.innerHTML += `
-                <div class="col-12 col-sm-6 col-lg-4 g-3">
+                <div class="col-12 col-sm-6 col-lg-4 g-4">
                     <div class="card h-100">
                         <img src="${element.srcImg}" class="card-img-top" alt="${element.altImg}">
                         <div class="card-body">

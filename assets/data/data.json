@@ -4,7 +4,7 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "Sass",
+        "SCSS",
         "Bootstrap",
         "Typescript",
         "Angular"
@@ -59,6 +59,71 @@
             "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Soltanto le funzionalità del carosello sono state implementate con Javascript.",
             "linkSito": "https://build-week1.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week1"
+        },
+        {
+            "id": 5,
+            "nome": "Progetto - Week 5 - Memory",
+            "categoria": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "srcImg": "assets/img/progetto-week5.jpg",
+            "altImg": "Progetto 5 - Memory",
+            "descrizione": "Quinto progetto settimanale Epicode. Ho ricreato il classico gioco del memory: lo scopo è trovare le coppie di carte uguali.",
+            "linkSito": "https://progetto-week5.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week5"
+        },
+        {
+            "id": 6,
+            "nome": "Progetto - Week 6",
+            "categoria": [
+                "SCSS"
+            ],
+            "srcImg": "assets/img/progetto-week6.jpg",
+            "altImg": "Progetto 6",
+            "descrizione": "Sesto progetto settimanale Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week6"
+        },
+        {
+            "id": 7,
+            "nome": "Progetto - Week 7",
+            "categoria": [
+                "Bootstrap",
+                "JavaScript"
+            ],
+            "srcImg": "assets/img/progetto-week7.jpg",
+            "altImg": "Progetto 7",
+            "descrizione": "Settimo progetto settimanale Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week7"
+        },
+        {
+            "id": 8,
+            "nome": "Build Week 2",
+            "categoria": [
+                "Bootstrap",
+                "JavaScript"
+            ],
+            "srcImg": "assets/img/build-week2.jpg",
+            "altImg": "Build Week 2",
+            "descrizione": "Build Week 2 Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Build-Week2"
+        },
+        {
+            "id": 9,
+            "nome": "Progetto - Week 9",
+            "categoria": [
+                "Bootstrap",
+                "Typescript"
+            ],
+            "srcImg": "assets/img/progetto-week9.jpg",
+            "altImg": "Progetto 9",
+            "descrizione": "Nono progetto settimanale Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Week9-Progetto"
         }
     ]
 }
