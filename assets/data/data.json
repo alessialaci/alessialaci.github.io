@@ -1,0 +1,24 @@
+{
+    "categorie": [
+        "Tutti",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Sass",
+        "Bootstrap",
+        "Angular",
+        "Typescript"
+    ],
+    "progetti": [
+        {
+            "id": 1,
+            "nome": "Progetto 1 - Week 1",
+            "categoria": "HTML",
+            "srcImg": "../img/progetto-week1",
+            "altImg": "front-end",
+            "textCard": "Primo progetto settimanale usando le tecniche imparate durante la settimana: HTML e CSS.",
+            "linkSito": "https://progetto-week1-lt5z.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/Progetto-Week1"
+        }
+    ]
+}
