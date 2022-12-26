@@ -124,6 +124,45 @@
             "descrizione": "Nono progetto settimanale Epicode.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Week9-Progetto"
+        },
+        {
+            "id": 10,
+            "nome": "Progetto - Week 10",
+            "categoria": [
+                "Bootstrap",
+                "Typescript"
+            ],
+            "srcImg": "assets/img/progetto-week10.jpg",
+            "altImg": "Progetto 10",
+            "descrizione": "Decimo progetto settimanale Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Week10-Progetto"
+        },
+        {
+            "id": 11,
+            "nome": "Progetto - Week 11 - Clone Netflix",
+            "categoria": [
+                "Bootstrap",
+                "Angular"
+            ],
+            "srcImg": "assets/img/progetto-week11.jpg",
+            "altImg": "Progetto 11 - Clone Netflix",
+            "descrizione": "Undicesimo progetto settimanale Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Week11-Progetto"
+        },
+        {
+            "id": 12,
+            "nome": "Build Week 3",
+            "categoria": [
+                "Bootstrap",
+                "Angular"
+            ],
+            "srcImg": "assets/img/build-week3.jpg",
+            "altImg": "Build Week 3",
+            "descrizione": "Build Week 3 Epicode.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Build-Week3"
         }
     ]
 }
