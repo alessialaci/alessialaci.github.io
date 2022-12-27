@@ -4,98 +4,99 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "SCSS",
+        "Sass",
         "Bootstrap",
-        "Typescript",
+        "TypeScript",
         "Angular"
     ],
     "progetti": [
         {
             "id": 1,
-            "nome": "Progetto - Week 1",
+            "nome": "Progetto Epicode - Week 1",
             "categoria": [
                 "HTML",
                 "CSS"
             ],
             "srcImg": "assets/img/progetto-week1.jpg",
             "altImg": "Progetto 1",
-            "descrizione": "Primo progetto settimanale Epicode usando le tecniche imparate durante la settimana: HTML e CSS.",
+            "descrizione": "Dopo la prima settimana in Epicode sono riuscita a realizzare il mio primo progetto settimanale utilizzando le tecniche imparate: HTML e CSS. Si tratta di una singola pagina web molto semplice con soltanto un bottone e dei link funzionanti.",
             "linkSito": "https://progetto-week1-lt5z.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week1"
         },
         {
             "id": 2,
-            "nome": "Progetto - Week 2",
+            "nome": "Progetto Epicode - Week 2",
             "categoria": [
                 "HTML",
                 "CSS"
             ],
             "srcImg": "assets/img/progetto-week2.jpg",
             "altImg": "Progetto 2",
-            "descrizione": "Secondo progetto settimanale Epicode realizzato interamente in HTML e CSS. Si tratta di un piccolo sito web formato da una homepage, una pagina 'Contatti' e una 'Chi siamo'.",
+            "descrizione": "Secondo progetto settimanale Epicode realizzato interamente in HTML e CSS. Si tratta di un piccolo sito web formato da una homepage, una pagina 'Contatti' e una 'Chi siamo', tutte responsive, navbar con menù hamburger compresa.",
             "linkSito": "https://progetto-week2.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week2"
         },
         {
             "id": 3,
-            "nome": "Progetto - Week 3 - Calcolatrice",
-            "categoria": "Javascript",
+            "nome": "Progetto Epicode - Week 3 - Calcolatrice",
+            "categoria":  [
+                "JavaScript"
+            ],
             "srcImg": "assets/img/progetto-week3.jpg",
             "altImg": "Progetto 3 - Calcolatrice",
-            "descrizione": "Terzo progetto settimanale Epicode. Grazie alle basi di Javascript apprese durante la settimana sono riuscita a realizzare una versione molto semplificata di una calcolatrice.",
+            "descrizione": "Grazie alle basi di JavaScript apprese durante la terza settimana di Epicode sono riuscita a realizzare una versione molto semplificata di una calcolatrice. Ho aggiunto anche il tasto DEL (elimina singolo carattere), oltre alle varie operazioni base.",
             "linkSito": "https://progetto-week3.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week3"
         },
         {
             "id": 4,
-            "nome": "Build Week 1",
+            "nome": "Build Week 1 - Sito ristorante",
             "categoria": [
                 "HTML",
                 "CSS",
-                "Javascript"
+                "JavaScript"
             ],
             "srcImg": "assets/img/build-week1.jpg",
-            "altImg": "Build Week 1",
-            "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Soltanto le funzionalità del carosello sono state implementate con Javascript.",
+            "altImg": "Build Week 1 - Sito ristorante",
+            "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Si sviluppa su un'unica pagina divisa in sezioni a cui si può accedere attraverso gli anchor points della navbar. Soltanto lo slider è stato implementato con JavaScript.",
             "linkSito": "https://build-week1.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week1"
         },
         {
             "id": 5,
-            "nome": "Progetto - Week 5 - Memory",
+            "nome": "Progetto Epicode - Week 5 - Memory",
             "categoria": [
-                "HTML",
-                "CSS",
-                "Javascript"
+                "JavaScript"
             ],
             "srcImg": "assets/img/progetto-week5.jpg",
             "altImg": "Progetto 5 - Memory",
-            "descrizione": "Quinto progetto settimanale Epicode. Ho ricreato il classico gioco del memory: lo scopo è trovare le coppie di carte uguali.",
+            "descrizione": "Alla quinta settimana in Epicode ho ricreato il classico gioco del memory: lo scopo è trovare le coppie di carte uguali nel minor tempo possibile. C'è un timer che scorre finchè non si vince. Ho poi inserito delle animazioni al click della carta e scoprendo la coppia.",
             "linkSito": "https://progetto-week5.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week5"
         },
         {
             "id": 6,
-            "nome": "Progetto - Week 6",
+            "nome": "Progetto Epicode - Week 6",
             "categoria": [
-                "SCSS"
+                "Bootstrap",
+                "Sass"
             ],
             "srcImg": "assets/img/progetto-week6.jpg",
             "altImg": "Progetto 6",
-            "descrizione": "Sesto progetto settimanale Epicode.",
+            "descrizione": "La sesta settimana Epicode ho imparato ad usare Bootstrap e Sass. Il sito è diviso in 5 sezioni: navbar, primo piano, partnership, carosello e footer basate su Bootstrap (icone comprese) e ho sperimentato con Sass per le aggiunte.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week6"
         },
         {
             "id": 7,
-            "nome": "Progetto - Week 7",
+            "nome": "Progetto Epicode - Week 7",
             "categoria": [
                 "Bootstrap",
                 "JavaScript"
             ],
             "srcImg": "assets/img/progetto-week7.jpg",
             "altImg": "Progetto 7",
-            "descrizione": "Settimo progetto settimanale Epicode.",
+            "descrizione": "Alla settima settimana Epicode, utilizzando JSON Server, ho creato un'applicazione per la gestione di una lista utenti. Compilando il form è possibile aggiungere un nuovo utente nell'elenco, con i due buttons modificarlo oppure eliminarlo.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week7"
         },
@@ -103,51 +104,50 @@
             "id": 8,
             "nome": "Build Week 2",
             "categoria": [
-                "Bootstrap",
                 "JavaScript"
             ],
             "srcImg": "assets/img/build-week2.jpg",
             "altImg": "Build Week 2",
-            "descrizione": "Build Week 2 Epicode.",
-            "linkSito": "",
+            "descrizione": "Per il secondo progetto in team abbiamo realizzato un e-commerce di una palestra. I prodotti e servizi dello shop vengono generati dinamicamente con javascript attraverso un file json. Abbiamo creato anche una dashboard visibile solo per l'admin.",
+            "linkSito": "https://build-week2.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week2"
         },
         {
             "id": 9,
-            "nome": "Progetto - Week 9",
+            "nome": "Progetto Epicode - Week 9",
             "categoria": [
                 "Bootstrap",
-                "Typescript"
+                "TypeScript"
             ],
             "srcImg": "assets/img/progetto-week9.jpg",
             "altImg": "Progetto 9",
-            "descrizione": "Nono progetto settimanale Epicode.",
+            "descrizione": "Ho progettato con TypeScript un'interfaccia che rappresenta un telefono con contratto a ricarica come nono progetto Epicode. È possibile ricaricare il numero e chiamarne un altro finchè non si esaurisce il credito (la durata viene generata casualmente).",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Week9-Progetto"
         },
         {
             "id": 10,
-            "nome": "Progetto - Week 10",
+            "nome": "Progetto Epicode - Week 10",
             "categoria": [
                 "Bootstrap",
-                "Typescript"
+                "Angular"
             ],
             "srcImg": "assets/img/progetto-week10.jpg",
             "altImg": "Progetto 10",
-            "descrizione": "Decimo progetto settimanale Epicode.",
+            "descrizione": "Iniziando ad imparare Angular, la decima settimana Epicode, ho creato un Blog molto semplice. Ho sperimentato con il service, una pipe per il testo in maiuscolo, una directive per il testo evidenziato, le rotte e il redirect all'homepage.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Week10-Progetto"
         },
         {
             "id": 11,
-            "nome": "Progetto - Week 11 - Clone Netflix",
+            "nome": "Progetto Epicode - Week 11 - Clone Netflix",
             "categoria": [
                 "Bootstrap",
                 "Angular"
             ],
             "srcImg": "assets/img/progetto-week11.jpg",
             "altImg": "Progetto 11 - Clone Netflix",
-            "descrizione": "Undicesimo progetto settimanale Epicode.",
+            "descrizione": "Undicesimo progetto settimanale Epicode: clone di Netflix. Form di Login e registrazione funzionanti con il token interceptor per la password, le guard bloccano l'homepage se non è stato fatto il login, 'mi piace' ai film, collegati all'utente anche dopo il logout.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Week11-Progetto"
         },
@@ -160,7 +160,7 @@
             ],
             "srcImg": "assets/img/build-week3.jpg",
             "altImg": "Build Week 3",
-            "descrizione": "Build Week 3 Epicode.",
+            "descrizione": "L'ultimo progetto Epicode in team è un blog di videogiochi. Attraverso le categorie nella navbar si possono vedere i post legati solo a quella categoria, facendo il login si può leggere il post, commentarlo e modificarlo/eliminarlo soltanto se è il proprio.",
             "linkSito": "",
             "linkGithub": "https://github.com/alessialaci/Build-Week3"
         }
