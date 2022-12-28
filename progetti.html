@@ -10,16 +10,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-    <!-- Bootstrap Css -->
+    <!-- Bootstrap Css + Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg shadow">
             <div class="container">
                 <a class="navbar-brand" href="index.html" id="logo-completo">
@@ -36,10 +37,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item mx-4">
-                            <a class="nav-link text-light active" aria-current="page" href="#progetti">Progetti</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link text-light" href="#tecnologie">Tecnologie</a>
+                            <a class="nav-link text-light active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item ms-4">
                             <a class="nav-link text-light" href="#contatti">Contatti</a>
@@ -52,14 +50,28 @@
 
     <main>
         <section class="container text-light my-5 p-5" id="progetti">
-            <h2 class="fw-bold">Progetti</h2>
+            <h2 class="fw-bold text-center">Progetti</h2>
+            <div id="rettangolo"></div>
+            <h3 class="text-secondary">Work in progress...</h3>
         </section>
     
         <div class="container my-5">
             <div class="row" id="griglia"></div>
         </div>
-
     </main>
+
+    <footer class="container text-light py-5" id="contatti">
+        <h2 class="text-center fw-bold my-3">Contatti</h2>
+        <div id="rettangolo"></div>
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="mailto:alessia_lacitignola@libero.it" title="Inviami un'email all'indirizzo alessia_lacitignola@libero.it">alessia_lacitignola@libero.it</a>
+            <div>
+                <a href="https://www.linkedin.com/in/alessia-lacitignola-70371b150/" title="LinkedIn"><i class="bi bi-linkedin fs-3 mx-3"></i></a>
+                <a href="https://www.instagram.com/alelacitignola/" title="Instagram"><i class="bi bi-instagram fs-3 mx-3"></i></a>
+                <a href="https://www.facebook.com/alessia.lacitignola" title="Facebook"><i class="bi bi-facebook fs-3 mx-3"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
