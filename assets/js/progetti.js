@@ -18,7 +18,7 @@ function printData() {
                 griglia.innerHTML += `
                 <div class="col-12 col-sm-6 col-lg-4 g-4">
                     <div class="card text-light h-100">
-                        <h5 class="card-title text-center fw-bold my-3">${element.nome}</h5>
+                        <h5 class="card-title text-center fw-bold my-3" style="font-family: Arial, Helvetica, sans-serif;">${element.nome}</h5>
                         <img src="${element.srcImg}" class="card-img-top rounded-0 border border-start-0 border-end-0" alt="${element.altImg}">
                         <div class="card-body text-center">
                             <p class="card-text">${element.descrizione}</p>
