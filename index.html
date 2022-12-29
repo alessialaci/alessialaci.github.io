@@ -14,7 +14,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
+        <!-- Stylesheet -->
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 
@@ -23,7 +23,7 @@
             <nav class="navbar navbar-expand-lg shadow">
                 <div class="container">
                     <a class="navbar-brand" href="index.html" id="logo-completo">
-                        <img src="assets/img/fill-logo-completo.png" alt="Logo Alessia Lacitignola" width="300px">
+                        <img src="assets/img/fill-logo-completo.png" alt="Logo Alessia Lacitignola" width="250px">
                     </a>
                     <a class="navbar-brand d-none" href="index.html" id="logo">
                         <img src="assets/img/fill-logo.png" alt="Logo Alessia Lacitignola" width="80px">
@@ -56,7 +56,7 @@
                 <div class="row align-items-center m-5">
                     <div class="col-12 col-lg-8 p-5">
                         <h1 class="display-5">Alessia Lacitignola</h1>
-                        <h3 class="mb-5" style="color: #0FA05D">> Junior Full-Stack Developer</h3>
+                        <h3 class="mb-5" id="sottotitolo">> Junior Full-Stack Developer</h3>
                         <p class="text-secondary" style="font-family:'Courier New', Courier, monospace;">&lt;!-- lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.--&gt;</p>
                     </div>
                     <div class="col-12 col-lg-4 text-center">
@@ -65,54 +65,58 @@
                 </div>
             </section>
 
-            <svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2375.43 714.89"><defs><style>.cls-1{fill:url(#Sfumatura_senza_nome_13);}</style><linearGradient id="Sfumatura_senza_nome_13" y1="356.53" x2="2375.43" y2="356.53" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0fa05d"/><stop offset="1" stop-color="#d60b52"/></linearGradient></defs><path class="cls-1" d="M0,85.79A1376.72,1376.72,0,0,1,388,12.26C606.75,2.85,747.26,30.13,894.64,85.79c138.32,63.83,297.86,144.31,533,183.83A1711.86,1711.86,0,0,0,1969,273.7a1076.29,1076.29,0,0,0,216.51-69.44A1077,1077,0,0,0,2375.43,96V702.64A1224.32,1224.32,0,0,0,2065,623c-213.73-25.65-381.44,14.27-498.38,42.89-115.41,20.68-273,32.81-480-44.93A916.65,916.65,0,0,1,806.75,453.45a1063.6,1063.6,0,0,0-347.24-192C263.78,197.27,94.35,205.1,0,216.51Z"/></svg>
+            <!-- Prima onda -->
+            <svg id="onda-uno" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2375.43 714.89"><defs><style>.cls-1{fill:url(#Sfumatura_senza_nome_5);}</style><linearGradient id="Sfumatura_senza_nome_5" y1="356.53" x2="2375.43" y2="356.53" gradientTransform="matrix(-1, 0, 0, 1, 2375.43, 0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d60b52"/><stop offset="1" stop-color="#0fa05d"/></linearGradient></defs><path class="cls-1" d="M2375.43,85.79a1376.73,1376.73,0,0,0-388-73.53c-218.72-9.41-359.23,17.87-506.61,73.53-138.32,63.83-297.87,144.31-533,183.83a1711.8,1711.8,0,0,1-541.27,4.08A1076.29,1076.29,0,0,1,190,204.26,1077,1077,0,0,1,0,96V702.64A1224.32,1224.32,0,0,1,310.47,623c213.73-25.65,381.44,14.27,498.38,42.89,115.41,20.68,273,32.81,480-44.93a916.65,916.65,0,0,0,279.83-167.49,1063.64,1063.64,0,0,1,347.23-192c195.74-64.18,365.17-56.35,459.52-44.94Z"/></svg>
 
             <!-- Sezione Progetti -->
-            <section class="container text-center my-5 p-5" id="progetti">
-                <div class="my-5">
-                    <h2 class="text-light fw-bold my-3">Progetti</h2>
-                    <div id="rettangolo"></div>
+            <section class="container text-center my-5 pt-5" id="progetti">
+                <div>
+                    <h2 class="text-light fw-bold mt-5">Progetti</h2>
+                    <div id="divisore"></div>
                     <div class="row justify-content-center" id="griglia"></div>
-                    <a href="progetti.html" class="btn btn-success shadow my-5">Mostra di più</a>
+                    <a href="progetti.html" class="btn btn-success my-5">Mostra di più</a>
                 </div>
             </section>
 
+            <!-- Seconda onda -->
+            <svg id="onda-due" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2375.43 714.89"><defs><style>.cls-1{fill:url(#Sfumatura_senza_nome_13);}</style><linearGradient id="Sfumatura_senza_nome_13" y1="356.53" x2="2375.43" y2="356.53" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0fa05d"/><stop offset="1" stop-color="#d60b52"/></linearGradient></defs><path class="cls-1" d="M0,85.79A1376.72,1376.72,0,0,1,388,12.26C606.75,2.85,747.26,30.13,894.64,85.79c138.32,63.83,297.86,144.31,533,183.83A1711.86,1711.86,0,0,0,1969,273.7a1076.29,1076.29,0,0,0,216.51-69.44A1077,1077,0,0,0,2375.43,96V702.64A1224.32,1224.32,0,0,0,2065,623c-213.73-25.65-381.44,14.27-498.38,42.89-115.41,20.68-273,32.81-480-44.93A916.65,916.65,0,0,1,806.75,453.45a1063.6,1063.6,0,0,0-347.24-192C263.78,197.27,94.35,205.1,0,216.51Z"/></svg>
+
             <!-- Sezione Tecnologie -->
-            <section class="container text-center text-light my-5 p-5"  id="tecnologie">
-                <div class="my-5">
-                    <h2 class="text-light fw-bold my-3">Tecnologie</h2>
-                    <div id="rettangolo"></div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <h3>Front End</h3>
-                            <p><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /> HTML</a></p>
-                            <p><a href="https://www.w3schools.com/css/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /> CSS</a></p>
-                            <p><a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /> Bootstrap</a></p>
-                            <p><a href="https://sass-lang.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="50" /> Sass</a></p>
-                            <p><a href="https://www.javascript.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /> JavaScript</a></p>
-                            <p><a href="https://www.typescriptlang.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /> TypeScript</a></p>
-                            <p><a href="https://angular.io/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="Angular" height="50" /> Angular</a></p>
-                            <p><a href="https://www.adobe.com/in/products/photoshop.html" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" alt="Photoshop" height="50" /> Photoshop</a></p>
-                            <p><a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="50" /> Illustrator</a></p>
-                            <p><a href="https://www.blender.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/blender_community_badge_white.svg" alt="Blender" height="50" /> Blender</a></p>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Back End</h3>
-                            <p><a href="https://nodejs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /> NodeJS</a></p>
-                            <p><a href="https://expressjs.com/" target="_blank"><img class="bg-light" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /> Express</a></p>
-                            <p>...in corso</p>
-                        </div>
+            <section class="container text-center text-light my-5 pt-5"  id="tecnologie">
+                <h2 class="text-light fw-bold mt-5">Tecnologie</h2>
+                <div id="divisore"></div>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h3>Front End</h3>
+                        <p><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /> HTML</a></p>
+                        <p><a href="https://www.w3schools.com/css/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /> CSS</a></p>
+                        <p><a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /> Bootstrap</a></p>
+                        <p><a href="https://sass-lang.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="50" /> Sass</a></p>
+                        <p><a href="https://www.javascript.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /> JavaScript</a></p>
+                        <p><a href="https://www.typescriptlang.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /> TypeScript</a></p>
+                        <p><a href="https://angular.io/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="Angular" height="50" /> Angular</a></p>
+                        <p><a href="https://www.adobe.com/in/products/photoshop.html" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" alt="Photoshop" height="50" /> Photoshop</a></p>
+                        <p><a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="50" /> Illustrator</a></p>
+                        <p><a href="https://www.blender.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/blender_community_badge_white.svg" alt="Blender" height="50" /> Blender</a></p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h3>Back End</h3>
+                        <p><a href="https://nodejs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /> NodeJS</a></p>
+                        <p><a href="https://expressjs.com/" target="_blank"><img class="bg-light" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /> Express</a></p>
+                        <p>...in corso</p>
                     </div>
                 </div>
             </section>
         </main>
 
-        <footer class="container text-light py-5" id="contatti">
+        <footer class="container-fluid text-light py-5" id="contatti">
             <h2 class="text-center fw-bold my-3">Contatti</h2>
-            <div id="rettangolo"></div>
-            <div class="d-flex justify-content-between align-items-center">
-                <a href="mailto:alessia_lacitignola@libero.it" title="Inviami un'email all'indirizzo alessia_lacitignola@libero.it">alessia_lacitignola@libero.it</a>
-                <div>
+            <div id="divisore"></div>
+            <div class="row text-center">
+                <div class="col-12 col-md-6 my-3">
+                    <a href="mailto:alessia_lacitignola@libero.it" title="Inviami un'email all'indirizzo alessia_lacitignola@libero.it">alessia_lacitignola@libero.it</a>
+                </div>
+                <div class="col-12 col-md-6 my-3">
                     <a href="https://www.linkedin.com/in/alessia-lacitignola-70371b150/" title="LinkedIn"><i class="bi bi-linkedin fs-3 mx-3"></i></a>
                     <a href="https://www.instagram.com/alelacitignola/" title="Instagram"><i class="bi bi-instagram fs-3 mx-3"></i></a>
                     <a href="https://www.facebook.com/alessia.lacitignola" title="Facebook"><i class="bi bi-facebook fs-3 mx-3"></i></a>
@@ -121,10 +125,8 @@
         </footer>
 
         <!-- Bootstrap Script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Script -->
         <script src="assets/js/script.js"></script>
     </body>
 

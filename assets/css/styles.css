@@ -1,10 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #171717;
     font-family: 'Fira Code', monospace;
-}
-
-nav, footer {
-    background-color: #171717b3;
 }
 
 a {
@@ -15,6 +15,26 @@ a {
 
 a:hover {
     color: #0FA05D;
+}
+
+nav, footer {
+    background-color: #171717b3;
+}
+
+#sottotitolo {
+    color: #0FA05D;
+    background: linear-gradient(to right, #0FA05D, #D51152, #0FA05D, #D51152);
+    background-size: 300%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sfumatura 4s linear infinite;
+}
+
+@keyframes sfumatura {
+    from { background-position: 0%; }
+    to { background-position: 100%; }
 }
 
 .card {
@@ -32,19 +52,36 @@ a:hover {
 .btn-success {
     background: linear-gradient(45deg, #0FA05D, #D51152);
     border: none;
+    box-shadow: 0 0 10px #d0d0d0;
+    transition: transform 0.5s ease;
+}
+
+.btn-success:hover {
+    transform: scale(1.05);
 }
 
 .btn-outline-success {
-    border: 1px solid linear-gradient(45deg, #0FA05D, #D51152);
+    color: #ffffff;
 }
 
-#rettangolo {
+#divisore {
     margin: 0 auto 20px;
     background: linear-gradient(45deg, #0FA05D, #D51152);
     width: 100px;
-    height: 3px;; 
+    height: 3px;
 }
 
+#onda-uno {
+    position: absolute;
+    top: 250px;
+    z-index: -100;
+}
+
+#onda-due {
+    position: absolute;
+    top: 1800px;
+    z-index: -100;
+}
 
 @media screen and (max-width: 576px) {
     .col-12 {
@@ -57,5 +94,25 @@ a:hover {
 
     #logo-completo {
         display: none;
+    }
+
+    #onda-uno, #onda-due {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #onda-due {
+        top: 3200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #onda-uno {
+        top: 500px;
+    }
+
+    #onda-due {
+        top: 1800px;
     }
 }
