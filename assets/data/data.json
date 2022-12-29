@@ -58,7 +58,7 @@
             ],
             "srcImg": "assets/img/build-week1.jpg",
             "altImg": "Build Week 1 - Sito ristorante",
-            "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Si sviluppa su un'unica pagina divisa in sezioni a cui si può accedere attraverso gli anchor points della navbar. Soltanto lo slider è stato implementato con JavaScript.",
+            "descrizione": "Primo progetto in team. Abbiamo realizzato il sito di un ristorante utilizzando HTML e CSS. Si sviluppa su un'unica pagina divisa in sezioni collegate agli anchor points della navbar. Soltanto lo slider è stato implementato con JavaScript.",
             "linkSito": "https://build-week1.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week1"
         },
