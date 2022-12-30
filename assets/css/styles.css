@@ -60,10 +60,6 @@ nav, footer {
     transform: scale(1.05);
 }
 
-.btn-outline-success {
-    color: #ffffff;
-}
-
 #divisore {
     margin: 0 auto 20px;
     background: linear-gradient(45deg, #0FA05D, #D51152);
@@ -81,6 +77,10 @@ nav, footer {
     position: absolute;
     top: 1800px;
     z-index: -100;
+}
+
+option:hover { 
+    background: rgb(227, 16, 16) !important;
 }
 
 @media screen and (max-width: 576px) {

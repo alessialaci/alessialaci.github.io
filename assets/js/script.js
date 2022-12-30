@@ -23,11 +23,17 @@ function printLastData() {
                         <img src="${element.srcImg}" class="card-img-top rounded-0" alt="${element.altImg}">
                         <div class="btn-group p-3">
                             <a href="${element.linkGithub}" target="_blank" class="btn btn-outline-success">Guarda il codice</a>
-                            <a href="${element.linkSito}" target="_blank" class="btn btn-outline-success">Guarda il sito</a>
+                            <a href="${element.linkSito}" target="_blank" class="btn btn-outline-success sitoBtn">Guarda il sito</a>
                         </div>
                     </div>
                 </div>
                 `
+                
+                if (element.linkSito == '') {
+                    document.querySelectorAll('.sitoBtn').forEach(button => {
+                          button.classList.add('disabled');
+                    });
+                }
             })
         } else {
             griglia.innerHTML += `<p class="text-danger">Non sono presenti progetti</p>`

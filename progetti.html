@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg shadow">
             <div class="container">
                 <a class="navbar-brand" href="index.html" id="logo-completo">
-                    <img src="assets/img/fill-logo-completo.png" alt="Logo Alessia Lacitignola" width="300px">
+                    <img src="assets/img/fill-logo-completo.png" alt="Logo Alessia Lacitignola" width="250px">
                 </a>
                 <a class="navbar-brand d-none" href="index.html" id="logo">
                     <img src="assets/img/fill-logo.png" alt="Logo Alessia Lacitignola" width="80px">
@@ -54,6 +54,20 @@
             <div id="divisore"></div>
             <div id="rettangolo"></div>
         </section>
+
+        <div class="container">
+            <label class="form-label text-light" for="filtro">Filtra per categoria</label>
+            <select class="form-select text-success border-success" name="filtro" id="filtro" onclick="filterByCategories()">
+                <option value="Tutti">Tutti</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Sass">Sass</option>
+                <option value="Bootstrap">Bootstrap</option>
+                <option value="TypeScript">TypeScript</option>
+                <option value="Angular">Angular</option>
+            </select>
+        </div>
     
         <div class="container my-5">
             <div class="row" id="griglia"></div>
