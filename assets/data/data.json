@@ -1,14 +1,4 @@
 {
-    "categorie": [
-        "Tutti",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Sass",
-        "Bootstrap",
-        "TypeScript",
-        "Angular"
-    ],
     "progetti": [
         {
             "id": 1,
