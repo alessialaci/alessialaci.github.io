@@ -17,7 +17,7 @@ function printLastData() {
             progetti.slice(-4).reverse().map(function(element) {
                 griglia.innerHTML += `
                 <div class="col-12 col-md-5 g-5">
-                    <div class="card text-light h-100">
+                    <div class="card text-light h-100 border-0">
                         <h5 class="card-title text-center fw-bold my-3" style="font-family: Arial, Helvetica, sans-serif;">${element.nome}</h5>
                         <div id="rettangolo"></div>
                         <img src="${element.srcImg}" class="card-img-top rounded-0" alt="${element.altImg}">
