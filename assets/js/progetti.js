@@ -9,6 +9,8 @@ function init() {
 }
 
 function printData() {
+    griglia.innerHTML = '';
+    
     fetch("assets/data/data.json").then((response) => {
         return response.json()
     }).then((data) => {
