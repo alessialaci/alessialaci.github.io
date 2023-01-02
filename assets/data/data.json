@@ -112,7 +112,7 @@
             "srcImg": "assets/img/progetto-week9.jpg",
             "altImg": "Progetto 9",
             "descrizione": "Ho progettato con TypeScript un'interfaccia che rappresenta un telefono con contratto a ricarica come nono progetto Epicode. È possibile ricaricare il numero e chiamarne un altro finchè non si esaurisce il credito (durata generata casualmente).",
-            "linkSito": "",
+            "linkSito": "https://week9-progetto.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Week9-Progetto"
         },
         {

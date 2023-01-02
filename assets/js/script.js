@@ -28,13 +28,14 @@ function printLastData() {
                     </div>
                 </div>
                 `
-                
-                if (element.linkSito == '') {
-                    document.querySelectorAll('.sitoBtn').forEach(button => {
-                          button.classList.add('disabled');
-                    });
-                }
             })
+            
+            document.querySelectorAll('.sitoBtn').forEach(button => {
+                if(button.getAttribute('href') == '') {
+                    button.classList.add('disabled');
+                }
+            });
+
         } else {
             griglia.innerHTML += `<p class="text-danger">Non sono presenti progetti</p>`
         }
