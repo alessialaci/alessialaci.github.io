@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #0FA05D;
+    color: #0FA05D !important;
 }
 
 nav, footer {
