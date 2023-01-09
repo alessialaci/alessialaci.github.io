@@ -151,7 +151,7 @@
             "srcImg": "assets/img/build-week3.jpg",
             "altImg": "Build Week 3",
             "descrizione": "L'ultimo progetto Epicode in team è un blog di videogiochi. Attraverso la navbar si possono vedere i post legati ad ogni categoria, facendo il login si può leggere il post, commentarlo e modificarlo/eliminarlo soltanto se è il proprio.",
-            "linkSito": "https://github.com/alessialaci/Week10-Progetto",
+            "linkSito": "https://build-week3.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week3"
         }
     ]
