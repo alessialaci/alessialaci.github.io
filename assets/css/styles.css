@@ -13,7 +13,7 @@ a {
     transition: color 0.5s ease;
 }
 
-a:hover {
+nav a:hover, footer a:hover {
     color: #0FA05D !important;
 }
 
@@ -39,7 +39,6 @@ nav, footer {
 
 .card {
     background-color: #171717;
-    
     transition: transform 0.5s ease;
     border-radius: 30px 0;
     box-shadow: 0px 0px 10px #d0d0d0;
