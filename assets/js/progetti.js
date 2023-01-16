@@ -35,7 +35,7 @@ function printData() {
 
                 document.querySelectorAll('.sitoBtn').forEach(button => {
                     if(button.getAttribute('href') == '') {
-                        button.classList.add('disabled');
+                        button.classList.add('d-none');
                     }
                 });
             })
@@ -104,7 +104,7 @@ function printCategory(categoria) {
         
         document.querySelectorAll('.sitoBtn').forEach(button => {
             if(button.getAttribute('href') == '') {
-                button.classList.add('disabled');
+                button.classList.add('d-none');
             }
         });
     });

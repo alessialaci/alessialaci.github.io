@@ -22,7 +22,7 @@
             ],
             "srcImg": "assets/img/progetto-week2.jpg",
             "altImg": "Progetto 2",
-            "descrizione": "Secondo progetto settimanale Epicode realizzato interamente in HTML e CSS. Si tratta di un piccolo sito web formato da una homepage, una pagina 'Contatti' e una 'Chi siamo', tutte responsive, navbar con menù hamburger compresa.",
+            "descrizione": "Secondo progetto settimanale Epicode realizzato interamente in HTML e CSS. Si tratta di un piccolo sito web formato da una homepage, una pagina 'Contatti' e una pagina 'Chi siamo', tutte responsive, navbar con menù hamburger compresa.",
             "linkSito": "https://progetto-week2.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Progetto-Week2"
         },
