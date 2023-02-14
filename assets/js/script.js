@@ -1,11 +1,13 @@
 var ultimiProgetti = [];
 var griglia;
+var onde = document.querySelectorAll('.onda')
 
 window.addEventListener('DOMContentLoaded', init());
 
 function init() {
     griglia = document.getElementById('griglia');
     printLastData();
+    ondaMove();
 }
 
 function printLastData() {
@@ -41,4 +43,20 @@ function printLastData() {
             griglia.innerHTML += `<p class="text-danger">Non sono presenti progetti</p>`
         }
     });
+}
+
+function ondaMove() {
+    window.addEventListener('scroll', function() {
+        let windowPos = window.pageYOffset;
+
+        onde.forEach((item) => {
+            let ondaMove = item.getBoundingClientRect();
+
+            if(windowPos > ondaMove.top) {
+                item.style.transform = "translateY(" + ondaMove.top * -1 * -0.1 + "px";
+            }
+
+        })
+
+    })
 }

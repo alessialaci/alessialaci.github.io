@@ -66,6 +66,10 @@ nav, footer {
     height: 3px;
 }
 
+.onda {
+    transition: all 0.2 cubic-bezier(.215, .61, .355, 1);
+}
+
 #onda-uno {
     position: absolute;
     top: 250px;
