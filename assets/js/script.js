@@ -53,7 +53,7 @@ function ondaMove() {
             let ondaMove = item.getBoundingClientRect();
 
             if(windowPos > ondaMove.top) {
-                item.style.transform = "translateY(" + ondaMove.top * -1 * 0.1 + "px";
+                item.style.transform = "translateY(" + ondaMove.top * -0.1 + "px";
             }
 
         })
