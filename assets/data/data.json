@@ -153,6 +153,34 @@
             "descrizione": "L'ultimo progetto Epicode in team è un blog di videogiochi. Attraverso la navbar si possono vedere i post legati ad ogni categoria, facendo il login si può leggere il post, commentarlo e modificarlo/eliminarlo soltanto se è il proprio.",
             "linkSito": "https://build-week3.vercel.app/",
             "linkGithub": "https://github.com/alessialaci/Build-Week3"
+        },
+        {
+            "id": 13,
+            "nome": "Artìa - Capstone Project",
+            "categoria": [
+                "Bootstrap",
+                "Angular",
+                "Java",
+                "PostgreSQL"
+            ],
+            "srcImg": "assets/img/artia-capstone.jpg",
+            "altImg": "Artìa - Capstone Project",
+            "descrizione": "Ho completato il corso Epicode con un progetto full-stack individuale. In 4 settimane ho realizzato un'applicazione web di aste d'arte online, dove gli utenti possono sia pubblicare le proprie opere sia comprarne all'asta proponendo le loro offerte fino alla scadenza.",
+            "linkSito": "",
+            "linkGithub": "https://github.com/alessialaci/Capstone-Project.git"
+        },
+        {
+            "id": 14,
+            "nome": "DishDash",
+            "categoria": [
+                "Bootstrap",
+                "Angular"
+            ],
+            "srcImg": "assets/img/dishdash.jpg",
+            "altImg": "DishDash",
+            "descrizione": "DishDash è una web app weekly menu planner che consente di organizzare i pasti della settimana su un calendario scegliendo tra quelle disponibili. Ho utilizzato Firebase per il login, Edamam come API esterna e ho anche creato una mia API con mockAPI.",
+            "linkSito": "https://dish-dash.vercel.app/",
+            "linkGithub": "https://github.com/alessialaci/DishDash.git"
         }
     ]
 }

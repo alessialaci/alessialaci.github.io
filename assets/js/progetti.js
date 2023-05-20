@@ -73,6 +73,12 @@ function filterByCategories() {
         case 'Angular':
             printCategory('Angular');
             break;
+        case 'Java':
+            printCategory('Java');
+            break;
+        case 'PostgreSQL':
+            printCategory('PostgreSQL');
+            break;
         default:
             console.log('Tutti');
     }
